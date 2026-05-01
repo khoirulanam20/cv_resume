@@ -30,6 +30,7 @@ import {
   PaintBucket,
   Highlighter,
   Wand2,
+  Sparkles,
   Link2,
   Unlink,
 } from "lucide-react";
@@ -50,6 +51,7 @@ interface RichTextEditorProps {
   onChange: (content: string) => void;
   placeholder?: string;
   onPolish?: () => void;
+  onGenerate?: () => void;
 }
 
 interface ColorOption {
@@ -434,6 +436,7 @@ const RichTextEditor = ({
   placeholder = "",
   onChange,
   onPolish,
+  onGenerate,
 }: RichTextEditorProps) => {
   const t = useTranslations("richEditor");
   const initialContent = useMemo(
@@ -671,6 +674,22 @@ const RichTextEditor = ({
             >
               <Wand2 className="h-3 w-3 group-hover:rotate-12 transition-transform" />
               {t("aiPolish")}
+            </Button>
+          )}
+          {onGenerate && (
+            <Button
+              type="button"
+              size="sm"
+              variant="outline"
+              onClick={(e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                onGenerate();
+              }}
+              className="h-8 px-3 text-xs gap-1.5 ml-1 border-emerald-500/20 hover:border-emerald-500/40 text-emerald-600 dark:text-emerald-400 hover:bg-emerald-500/5 transition-all duration-300 group"
+            >
+              <Sparkles className="h-3 w-3 group-hover:rotate-12 transition-transform" />
+              {t("aiGenerate")}
             </Button>
           )}
         </div>

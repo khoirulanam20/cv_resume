@@ -587,6 +587,7 @@
     "undo": "Undo",
     "redo": "Redo",
     "aiPolish": "AI Polish",
+    "aiGenerate": "AI Generate",
     "paragraph": "Paragraph",
     "heading1": "Heading 1",
     "heading2": "Heading 2",
@@ -703,6 +704,33 @@
     "customInstructionsPlaceholder": "e.g. Use more technical terms, highlight metrics, keep tone formal… (optional)",
     "button": {
       "start": "Start polish",
+      "regenerate": "Regenerate",
+      "generating": "Generating...",
+      "apply": "Apply Content"
+    }
+  },
+  "aiGenerateDialog": {
+    "title": "AI Generate",
+    "description": {
+      "ready": "Enter instructions about what you want to generate, then click \"Start Generate\"",
+      "generating": "Generating your content...",
+      "finished": "Content has been generated, please check the result"
+    },
+    "error": {
+      "configRequired": "Please configure AI model first",
+      "promptRequired": "Instructions cannot be empty",
+      "generateFailed": "Generate failed",
+      "applied": "Generated content applied"
+    },
+    "content": {
+      "generated": "Generated Content"
+    },
+    "prompt": "What do you want to generate?",
+    "promptPlaceholder": "e.g. Write a job description for Software Engineer at Google focusing on React and Node.js...",
+    "customInstructions": "Additional Instructions (Optional)",
+    "customInstructionsPlaceholder": "e.g. Use professional tone, format as bullet points...",
+    "button": {
+      "start": "Start Generate",
       "regenerate": "Regenerate",
       "generating": "Generating...",
       "apply": "Apply Content"

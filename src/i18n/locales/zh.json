@@ -543,6 +543,7 @@
     "undo": "撤销",
     "redo": "重做",
     "aiPolish": "AI 润色",
+    "aiGenerate": "AI 生成",
     "paragraph": "正文",
     "heading1": "标题 1",
     "heading2": "标题 2",
@@ -748,6 +749,33 @@
     "customInstructionsPlaceholder": "例如：请用更技术化的表述、突出量化成果、语气偏正式…（选填，留空则按默认规则润色）",
     "button": {
       "start": "开始润色",
+      "regenerate": "重新生成",
+      "generating": "生成中...",
+      "apply": "应用内容"
+    }
+  },
+  "aiGenerateDialog": {
+    "title": "AI 生成",
+    "description": {
+      "ready": "请输入您想要生成的内容要求，然后点击「开始生成」",
+      "generating": "正在为您生成内容...",
+      "finished": "已经为您生成了内容，请查看效果"
+    },
+    "error": {
+      "configRequired": "请先配置 AI 模型",
+      "promptRequired": "生成要求不能为空",
+      "generateFailed": "生成失败",
+      "applied": "已应用生成内容"
+    },
+    "content": {
+      "generated": "生成的内容"
+    },
+    "prompt": "您想要生成什么？",
+    "promptPlaceholder": "例如：写一段关于高级前端工程师的工作经历，突出React和性能优化...",
+    "customInstructions": "附加要求（选填）",
+    "customInstructionsPlaceholder": "例如：使用正式的语气，使用项目符号...",
+    "button": {
+      "start": "开始生成",
       "regenerate": "重新生成",
       "generating": "生成中...",
       "apply": "应用内容"

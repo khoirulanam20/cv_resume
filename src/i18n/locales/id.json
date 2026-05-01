@@ -586,6 +586,7 @@
     "undo": "Urungkan",
     "redo": "Ulangi",
     "aiPolish": "Poles AI",
+    "aiGenerate": "Generate AI",
     "paragraph": "Paragraf",
     "heading1": "Judul 1",
     "heading2": "Judul 2",
@@ -702,6 +703,33 @@
     "customInstructionsPlaceholder": "misal: Gunakan istilah yang lebih teknis, tonjolkan metrik, pertahankan nada formal… (opsional)",
     "button": {
       "start": "Mulai Poles",
+      "regenerate": "Hasilkan Lagi",
+      "generating": "Menghasilkan...",
+      "apply": "Terapkan Konten"
+    }
+  },
+  "aiGenerateDialog": {
+    "title": "Generate AI",
+    "description": {
+      "ready": "Masukkan instruksi tentang konten apa yang ingin Anda buat, lalu klik \"Mulai Generate\"",
+      "generating": "Sedang membuat konten Anda...",
+      "finished": "Konten telah dibuat, silakan periksa hasilnya"
+    },
+    "error": {
+      "configRequired": "Silakan konfigurasi model AI terlebih dahulu",
+      "promptRequired": "Instruksi tidak boleh kosong",
+      "generateFailed": "Generate gagal",
+      "applied": "Konten hasil generate berhasil diterapkan"
+    },
+    "content": {
+      "generated": "Konten Hasil Generate"
+    },
+    "prompt": "Apa yang ingin Anda buat?",
+    "promptPlaceholder": "misal: Buatkan deskripsi pekerjaan untuk Software Engineer di Tokopedia dengan fokus pada React dan Node.js...",
+    "customInstructions": "Instruksi Tambahan (Opsional)",
+    "customInstructionsPlaceholder": "misal: Gunakan bahasa yang profesional, format bullet points...",
+    "button": {
+      "start": "Mulai Generate",
       "regenerate": "Hasilkan Lagi",
       "generating": "Menghasilkan...",
       "apply": "Terapkan Konten"

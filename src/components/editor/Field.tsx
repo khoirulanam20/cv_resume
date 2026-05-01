@@ -15,6 +15,7 @@ import { Input } from "@/components/ui/input";
 import { Switch } from "@/components/ui/switch";
 import RichTextEditor from "../shared/rich-editor/RichEditor";
 import AIPolishDialog from "../shared/ai/AIPolishDialog";
+import AIGenerateDialog from "../shared/ai/AIGenerateDialog";
 import { useAIConfiguration } from "@/hooks/useAIConfiguration";
 import { UnifiedDateInput } from "../ui/unified-date-input";
 import { UnifiedDateRangeInput } from "../ui/unified-date-range-input";
@@ -44,6 +45,7 @@ const Field = ({
   const [displayMonth, setDisplayMonth] = useState<Date>(new Date());
   const [fromDate, setFromDate] = useState<Date | undefined>(undefined);
   const [showPolishDialog, setShowPolishDialog] = useState(false);
+  const [showGenerateDialog, setShowGenerateDialog] = useState(false);
   const { checkConfiguration } = useAIConfiguration();
   const t = useTranslations();
 
@@ -179,6 +181,11 @@ const Field = ({
                 setShowPolishDialog(true);
               }
             }}
+            onGenerate={() => {
+              if (checkConfiguration()) {
+                setShowGenerateDialog(true);
+              }
+            }}
           />
         </div>
 
@@ -186,6 +193,14 @@ const Field = ({
           open={showPolishDialog}
           onOpenChange={setShowPolishDialog}
           content={value || ""}
+          onApply={(content) => {
+            onChange(content);
+          }}
+        />
+
+        <AIGenerateDialog
+          open={showGenerateDialog}
+          onOpenChange={setShowGenerateDialog}
           onApply={(content) => {
             onChange(content);
           }}
