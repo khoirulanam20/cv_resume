@@ -1,0 +1,800 @@
+{
+  "common": {
+    "title": "Magic Resume",
+    "subtitle": "Editor Resume Berbasis AI",
+    "description": "Magic Resume adalah editor resume sumber terbuka, gratis, dan mengutamakan privasi. Tidak perlu registrasi, semua data disimpan secara lokal, mendukung pencadangan dan ekspor data, memastikan data resume Anda selalu tersedia.",
+    "dashboard": "Dasbor",
+    "edit": "Edit",
+    "delete": "Hapus",
+    "newResume": "Resume Baru",
+    "copy": "Salin",
+    "cancel": "Batal",
+    "confirm": "Konfirmasi",
+    "deleteSuccess": "Berhasil dihapus",
+    "deleteModuleConfirm": "Apakah Anda yakin ingin menghapus modul ini? Tindakan ini tidak dapat dibatalkan.",
+    "configured": "Terkonfigurasi",
+    "notConfigured": "Belum terkonfigurasi"
+  },
+  "home": {
+    "header": {
+      "title": "Magic Resume",
+      "startButton": "Mulai",
+      "features": "Fitur",
+      "pricing": "Harga",
+      "about": "Tentang",
+      "login": "Masuk",
+      "register": "Daftar",
+      "dashboard": "Dasbor"
+    },
+    "hero": {
+      "badge": "Pembuatan Resume Cerdas",
+      "title": "Buat Resume Menjadi Mudah dan Cerdas",
+      "subtitle": "Magic Resume menggunakan teknologi AI untuk membantu Anda membuat resume profesional dengan cepat. Tidak perlu registrasi, gratis digunakan, dengan penyimpanan data yang aman.",
+      "cta": "Mulai Sekarang",
+      "secondary": "Lihat Templat"
+    },
+    "features": {
+      "title": "Mengapa Memilih Magic Resume?",
+      "subtitle": "Kami menyediakan solusi resume lengkap untuk memperlancar perjalanan pencarian kerja Anda",
+      "ai": {
+        "badge": "Pemeriksaan AI",
+        "title": "Deteksi Cerdas, Saran Profesional",
+        "description": "Pemeriksaan tata bahasa cerdas bawaan, secara otomatis mengidentifikasi ekspresi yang tidak tepat, memberikan saran modifikasi profesional, membuat resume Anda lebih menonjol.",
+        "item1": "Peningkatan cerdas",
+        "item1_description": "AI secara otomatis mengoptimalkan ekspresi konten, membuat resume Anda lebih profesional",
+        "item2": "Pemeriksaan tata bahasa",
+        "item2_description": "Mendeteksi secara otomatis dan mengoreksi kesalahan tata bahasa dan ejaan"
+      },
+      "storage": {
+        "badge": "Penyimpanan Lokal",
+        "title": "Keamanan Data, Privasi Utama",
+        "description": "Semua data resume disimpan sepenuhnya secara lokal, tidak perlu khawatir tentang kebocoran privasi. Mendukung ekspor cadangan data, memastikan data resume Anda selalu tersedia.",
+        "item1": "Penyimpanan file lokal",
+        "item1_description": "Data resume disimpan dengan aman di hard drive komputer Anda",
+        "item2": "Berbagai format ekspor",
+        "item2_description": "Mendukung ekspor format PDF dan JSON",
+        "item3": "Mendukung ekspor cadangan data"
+      },
+      "preview": {
+        "badge": "Pratinjau Real-time",
+        "title": "Apa yang Anda Lihat Adalah Apa yang Anda Dapatkan",
+        "item1": "Pratinjau real-time dari efek pengeditan",
+        "item2": "Dukungan berbagai format ekspor"
+      }
+    },
+    "news": {
+      "label": "Berita",
+      "content": "Fitur Peningkatan Resume AI Baru telah Tersedia"
+    },
+    "footer": {
+      "copyright": " 2025 Magic Resume. Seluruh hak cipta."
+    },
+    "changelog": "Log Perubahan",
+    "cta": {
+      "title": "Mulai Babak Baru Karier Anda",
+      "description": "Mulai gunakan Magic Resume sekarang untuk membuat resume yang mengesankan",
+      "button": "Mulai Gunakan Gratis"
+    },
+    "faq": {
+      "title": "Pertanyaan yang Sering Diajukan",
+      "items": [
+        {
+          "question": "Apakah Magic Resume gratis digunakan?",
+          "answer": "Magic Resume saat ini gratis, memenuhi kebutuhan dasar pembuatan resume. Fitur versi sumber terbuka akan tetap tidak berubah."
+        },
+        {
+          "question": "Apakah data resume saya aman?",
+          "answer": "Ya, sangat aman. Magic Resume menggunakan penyimpanan lokal, artinya semua data Anda disimpan di perangkat Anda sendiri tanpa penyimpanan awan, memastikan perlindungan privasi lengkap."
+        },
+        {
+          "question": "Format ekspor apa yang didukung?",
+          "answer": "Kami saat ini mendukung ekspor PDF, memastikan resume Anda mempertahankan format yang konsisten di perangkat apa pun. Kami berencana mendukung lebih banyak format ekspor di masa depan."
+        },
+        {
+          "question": "Bagaimana cara menyelaraskan antar perangkat?",
+          "answer": "Kami menyediakan ekspor konfigurasi JSON, memungkinkan Anda menyimpan pengaturan resume dalam format JSON, dapat diakses kapan saja, di mana saja, pada perangkat apa pun."
+        },
+        {
+          "question": "Seberapa fleksibel kustomisasinya?",
+          "answer": "Kami menawarkan opsi kustomisasi yang kaya, termasuk warna, tata letak, dan lainnya, memungkinkan Anda menyesuaikan gaya resume sesuai dengan preferensi pribadi dan persyaratan industri."
+        }
+      ]
+    }
+  },
+  "dashboard": {
+    "sidebar": {
+      "appName": "Magic Resume",
+      "resumes": "Resume Saya",
+      "settings": "Pengaturan",
+      "templates": "Templat",
+      "ai": "Konfigurasi AI"
+    },
+    "resumes": {
+      "created": "Dibuat Pada",
+      "synced": "File Tersinkronisasi",
+      "view": "Lihat",
+      "myResume": "Resume Saya",
+      "create": "Buat Resume",
+      "newResume": "Resume Baru",
+      "newResumeDescription": "Buat resume baru untuk memulai.",
+      "import": "Impor Resume",
+      "untitled": "Resume Tanpa Judul",
+      "importSuccess": "Konfigurasi berhasil diimpor",
+      "importError": "Impor gagal, silakan periksa format file",
+      "importDialog": {
+        "title": "Impor Resume",
+        "jsonTitle": "Impor JSON",
+        "jsonDescription": "Impor file konfigurasi resume yang telah diekspor (.json)",
+        "pdfTitle": "Impor PDF",
+        "pdfDescription": "Gunakan Gemini untuk mengubah data resume terstruktur",
+        "importing": "Sedang mengimpor, mohon tunggu...",
+        "geminiConfigRequired": "Silakan konfigurasi Gemini API Key dan Model ID di pengaturan AI terlebih dahulu",
+        "pdfSuccess": "PDF berhasil diimpor",
+        "pdfError": "Impor PDF gagal. Silakan periksa konten PDF atau konfigurasi Gemini"
+      },
+      "notice": {
+        "title": "Perhatian",
+        "description": "Disarankan untuk mengonfigurasi folder cadangan resume di pengaturan untuk mencegah data Anda hilang saat cache browser dihapus",
+        "goToSettings": "Buka Pengaturan"
+      },
+      "deleteConfirmTitle": "Konfirmasi Hapus Resume?",
+      "deleteConfirmDescription": "Tindakan ini tidak dapat dibatalkan. Ini akan menghapus resume ini secara permanen dan menghapus datanya dari perangkat Anda.",
+      "createDialog": {
+        "title": "Buat Resume Baru",
+        "description": "Mulai resume baru dari templat kosong",
+        "tabs": {
+          "fromTemplate": "Dari Templat",
+          "uploadFile": "Unggah File"
+        },
+        "namePlaceholder": "Nama",
+        "switchTemplate": "Ganti Templat",
+        "cancel": "Batal",
+        "create": "Buat",
+        "blankTitle": "Resume Kosong",
+        "startFromBlank": "Mulai dari Kosong",
+        "startFromTemplate": "Mulai dari Templat",
+        "blankCardDescription": "Gunakan tata letak bawaan standar dan mulai dari awal.",
+        "blankThumbnailDescription": "Mulai dengan halaman bersih dan bentuk resume berbasis kode dengan kontrol kreatif penuh.",
+        "createNow": "Buat Sekarang",
+        "backToGrid": "Kembali ke daftar templat",
+        "blankPreviewDescription": "Pilih halaman kosong dan bangun semuanya dari nol, tanpa batasan prasetel apa pun.",
+        "useThisTemplate": "Gunakan Templat Ini",
+        "sample": {
+          "company": "Google",
+          "position": "Insinyur Perangkat Lunak Senior",
+          "present": "Sekarang",
+          "workDescription": "Memimpin tim frontend dan meningkatkan performa halaman sebesar 40%."
+        }
+      }
+    },
+    "settings": {
+      "title": "Pengaturan",
+      "syncDirectory": {
+        "title": "Direktori Sinkronisasi",
+        "description": "Pilih folder untuk menyelaraskan dan mencadangkan resume Anda.",
+        "currentSyncFolder": "Folder Sinkronisasi Saat Ini",
+        "noFolderConfigured": "Belum ada folder yang dikonfigurasi",
+        "changeFolder": "Ubah Folder",
+        "selectFolder": "Pilih Folder"
+      },
+      "sync": {
+        "title": "Direktori Sinkronisasi",
+        "description": "Pilih folder untuk menyelaraskan dan mencadangkan resume Anda.",
+        "select": "Pilih Folder"
+      },
+      "ai": {
+        "title": "Konfigurasi AI",
+        "currentModel": "Model Saat Ini",
+        "selectModel": "Pilih Model",
+        "getApiKey": "Dapatkan API Key",
+        "doubao": {
+          "title": "Doubao",
+          "description": "Dapatkan API key dari Volcengine",
+          "apiKey": "Doubao API Key",
+          "modelId": "Model ID"
+        },
+        "deepseek": {
+          "title": "DeepSeek",
+          "description": "Dapatkan API key dari Platform DeepSeek",
+          "apiKey": "DeepSeek API Key"
+        },
+        "openai": {
+          "title": "OpenAI",
+          "description": "Dapatkan API key di OpenAI atau platform terbuka yang kompatibel dengan format OpenAI",
+          "apiKey": "OpenAI API Key",
+          "modelId": "Model ID",
+          "apiEndpoint": "Endpoint API, contoh: https://openai.example.org/v1"
+        },
+        "gemini": {
+          "title": "Gemini",
+          "description": "Mendukung pemolesan, pemeriksaan tata bahasa, dan impor resume gambar PDF. Model yang disarankan: gemini-flash-latest",
+          "apiKey": "Gemini API Key",
+          "modelId": "Gemini Model ID"
+        }
+      }
+    },
+    "templates": {
+      "title": "Templat",
+      "useTemplate": "Gunakan Templat",
+      "preview": "Pratinjau",
+      "switchTemplate": "Ganti Templat",
+      "classic": {
+        "name": "Klasik",
+        "description": "Tata letak tradisional dan minimalis, cocok untuk sebagian besar lamaran kerja"
+      },
+      "modern": {
+        "name": "Dua Kolom",
+        "description": "Tata letak dua kolom klasik, menonjolkan karakteristik pribadi"
+      },
+      "leftRight": {
+        "name": "Latar Belakang Judul Bagian",
+        "description": "Judul bagian yang khas dengan warna latar belakang"
+      },
+      "timeline": {
+        "name": "Tata Letak Garis Waktu",
+        "description": "Gaya garis waktu, menekankan urutan kronologis pengalaman"
+      },
+      "minimalist": {
+        "name": "Minimalis",
+        "description": "Ruang kosong yang luas, gaya tata letak yang bersih dan murni"
+      },
+      "elegant": {
+        "name": "Elegan",
+        "description": "Desain satu kolom dengan judul di tengah, memberikan sentuhan keanggunan"
+      },
+      "creative": {
+        "name": "Kreatif",
+        "description": "Desain kontras visual, bersemangat dan personal"
+      },
+      "editorial": {
+        "name": "Editorial",
+        "description": "Perpaduan mewah antara tipografi serif tebal dan sans-serif halus"
+      }
+    }
+  },
+  "pdfExport": {
+    "button": {
+      "export": "Ekspor",
+      "exportPdf": "Ekspor PDF (Server)",
+      "exportJson": "Ekspor Konfigurasi JSON",
+      "exporting": "Mengekspor...",
+      "exportingJson": "Mengekspor...",
+      "print": "Cetak Browser"
+    },
+    "toast": {
+      "success": "PDF berhasil diekspor",
+      "error": "Ekspor PDF gagal",
+      "jsonSuccess": "Konfigurasi berhasil diekspor",
+      "jsonError": "Ekspor konfigurasi gagal"
+    }
+  },
+  "previewDock": {
+    "switchTemplate": "Ganti Templat",
+    "grammarCheck": {
+      "idle": "Pemeriksaan Tata Bahasa AI",
+      "checking": "Memeriksa...",
+      "configurePrompt": "Silakan konfigurasi Model AI",
+      "configureButton": "Konfigurasi",
+      "errorToast": "Pemeriksaan tata bahasa gagal, silakan coba lagi"
+    },
+    "sidePanel": {
+      "expand": "Perluas Panel Samping",
+      "collapse": "Kecilkan Panel Samping"
+    },
+    "editPanel": {
+      "expand": "Perluas Panel Edit",
+      "collapse": "Kecilkan Panel Edit"
+    },
+    "previewPanel": {
+      "expand": "Perluas Panel Pratinjau",
+      "collapse": "Kecilkan Panel Pratinjau"
+    },
+    "github": "GitHub",
+    "backToDashboard": "Kembali ke Dasbor",
+    "copyResume": {
+      "tooltip": "Salin Resume",
+      "success": "Resume berhasil disalin",
+      "error": "Gagal menyalin resume"
+    },
+    "export": {
+      "tooltip": "Ekspor Resume",
+      "pdf": "Ekspor PDF",
+      "json": "Ekspor JSON",
+      "print": "Cetak"
+    },
+    "autoOnePage": {
+      "tooltip": "Pas Satu Halaman Otomatis",
+      "enabled": "Mode satu halaman diaktifkan",
+      "disabled": "Mode satu halaman dinonaktifkan",
+      "cannotFit": "Terlalu banyak konten. Dioptimalkan sebanyak mungkin tetapi tidak bisa muat dalam satu halaman. Coba sederhanakan konten atau sesuaikan margin dan ukuran font di panel samping."
+    },
+    "backup": {
+      "configured": "Cadangan Terkonfigurasi",
+      "notConfigured": "Cadangan Belum Terkonfigurasi",
+      "clickToConfigure": "Klik untuk mengonfigurasi"
+    }
+  },
+  "workbench": {
+    "sidePanel": {
+      "layout": {
+        "title": "Tata Letak",
+        "addCustomSection": "Tambah Modul",
+        "addCustomSectionOption": "Tambah Bagian Kustom",
+        "standardSections": {
+          "skills": "Keterampilan",
+          "experience": "Pengalaman",
+          "projects": "Proyek",
+          "education": "Pendidikan",
+          "selfEvaluation": "Evaluasi Diri",
+          "certificates": "Sertifikat"
+        }
+      },
+      "theme": {
+        "title": "Warna Tema",
+        "custom": "Kustom"
+      },
+      "typography": {
+        "title": "Tipografi",
+        "font": {
+          "title": "Font",
+          "alibaba": "Alibaba PuHuiTi",
+          "misans": "MiSans",
+          "notosanssc": "Noto Sans SC",
+          "sourcehanserifsc": "Source Han Serif SC",
+          "note": "MiSans digunakan di bawah lisensi komersial gratisnya. Pertahankan atribusi MiSans saat mendistribusikan proyek ini."
+        },
+        "lineHeight": {
+          "title": "Tinggi Baris",
+          "normal": "Default",
+          "relaxed": "Nyaman",
+          "loose": "Longgar"
+        },
+        "baseFontSize": {
+          "title": "Ukuran Font Dasar"
+        },
+        "headerSize": {
+          "title": "Ukuran Judul Bagian"
+        },
+        "subheaderSize": {
+          "title": "Ukuran Judul Subbagian"
+        }
+      },
+      "spacing": {
+        "title": "Jarak",
+        "pagePadding": {
+          "title": "Padding Halaman"
+        },
+        "sectionSpacing": {
+          "title": "Jarak Bagian"
+        },
+        "paragraphSpacing": {
+          "title": "Jarak Paragraf"
+        }
+      },
+      "mode": {
+        "title": "Mode",
+        "useIconMode": {
+          "title": "Mode Ikon"
+        },
+        "centerSubtitle": {
+          "title": "Subjudul Tengah"
+        },
+        "flexibleHeaderLayout": {
+          "title": "Judul Panjang"
+        }
+      }
+    },
+    "basicPanel": {
+      "title": "Profil",
+      "avatar": "Avatar",
+      "basicField": "Dasar",
+      "customField": "Kustom",
+      "layout": "Perataan",
+      "customFields": {
+        "placeholders": {
+          "label": "Label",
+          "value": "Nilai"
+        },
+        "displayLabel": "Tampilkan label",
+        "addButton": "Tambah Bidang Kustom"
+      },
+      "basicFields": {
+        "name": "Nama",
+        "title": "Gelar/Posisi",
+        "email": "Email",
+        "phone": "Telepon",
+        "website": "Situs Web",
+        "location": "Lokasi",
+        "birthDate": "Tanggal Lahir",
+        "employementStatus": "Status Kerja"
+      },
+      "fieldVisibility": {
+        "show": "Tampilkan",
+        "hide": "Sembunyikan"
+      },
+      "githubContributions": "Kontribusi GitHub"
+    },
+    "experiencePanel": {
+      "title": "Pengalaman Kerja",
+      "addButton": "Tambah Pengalaman Kerja",
+      "defaultProject": {
+        "company": "Perusahaan Teknologi Ltd.",
+        "position": "Insinyur Frontend Senior",
+        "date": "2020-Sekarang",
+        "details": "Bertanggung jawab atas pengembangan produk inti..."
+      },
+      "placeholders": {
+        "company": "nama perusahaan",
+        "position": "jabatan",
+        "date": "periode kerja",
+        "details": "tanggung jawab dan pencapaian kerja"
+      }
+    },
+    "experienceItem": {
+      "labels": {
+        "company": "Nama Perusahaan",
+        "position": "Posisi",
+        "date": "Periode Kerja",
+        "details": "Tanggung Jawab Kerja"
+      },
+      "placeholders": {
+        "company": "Masukkan nama perusahaan",
+        "position": "misal: Insinyur Frontend",
+        "date": "misal: 2020-Sekarang",
+        "details": "Jelaskan tanggung jawab dan pencapaian Anda dalam peran ini"
+      },
+      "buttons": {
+        "edit": "Edit",
+        "save": "Simpan",
+        "cancel": "Batal",
+        "delete": "Hapus"
+      },
+      "visibility": {
+        "show": "Tampilkan",
+        "hide": "Sembunyikan"
+      }
+    },
+    "projectPanel": {
+      "title": "Pengalaman Proyek",
+      "addButton": "Tambah Proyek",
+      "defaultProject": {
+        "name": "Proyek Pribadi",
+        "description": "Deskripsi Proyek",
+        "role": "Tanggung Jawab",
+        "date": "2023.01 - 2023.06"
+      },
+      "placeholders": {
+        "name": "Nama Proyek",
+        "description": "Jelaskan secara singkat latar belakang dan tujuan proyek",
+        "role": "Peran dan tanggung jawab Anda dalam proyek",
+        "date": "Rentang waktu proyek",
+        "link": "Link proyek"
+      }
+    },
+    "projectItem": {
+      "labels": {
+        "name": "Nama Proyek",
+        "role": "Peran Proyek",
+        "date": "Periode Proyek",
+        "description": "Deskripsi Proyek",
+        "technologies": "Teknologi",
+        "link": "Link Proyek",
+        "linkLabel": "Teks Tampilan"
+      },
+      "placeholders": {
+        "name": "Masukkan nama proyek",
+        "role": "Peran Anda dalam proyek",
+        "date": "Rentang waktu proyek",
+        "description": "Jelaskan secara singkat latar belakang dan tujuan proyek",
+        "technologies": "Teknologi dan alat yang digunakan",
+        "link": "Link proyek",
+        "linkLabel": "Teks tampilan"
+      },
+      "hints": {
+        "linkLabel": "Jika teks tampilan kosong, domain atau URL lengkap akan ditampilkan secara otomatis. Hanya mendukung link http:// dan https://."
+      },
+      "buttons": {
+        "edit": "Edit",
+        "save": "Simpan",
+        "cancel": "Batal",
+        "delete": "Hapus"
+      },
+      "visibility": {
+        "show": "Tampilkan",
+        "hide": "Sembunyikan"
+      }
+    },
+    "educationPanel": {
+      "title": "Pendidikan",
+      "addButton": "Tambah Pendidikan",
+      "defaultProject": {
+        "school": "Nama Sekolah",
+        "degree": "Gelar",
+        "major": "Jurusan",
+        "date": "2020.09 - 2024.06"
+      },
+      "placeholders": {
+        "school": "Masukkan nama sekolah",
+        "degree": "Pilih gelar",
+        "major": "Masukkan jurusan",
+        "date": "Masukkan periode studi"
+      }
+    },
+    "educationItem": {
+      "labels": {
+        "school": "Nama Sekolah",
+        "degree": "Gelar",
+        "major": "Jurusan",
+        "date": "Periode Studi",
+        "description": "Deskripsi",
+        "gpa": "IPK",
+        "location": "Lokasi",
+        "startDate": "Tanggal Mulai",
+        "endDate": "Tanggal Selesai"
+      },
+      "placeholders": {
+        "school": "Masukkan nama sekolah",
+        "degree": "Pilih gelar",
+        "major": "Masukkan jurusan",
+        "date": "Masukkan rentang waktu studi",
+        "description": "Masukkan deskripsi sekolah",
+        "gpa": "Masukkan IPK",
+        "location": "Masukkan lokasi"
+      },
+      "buttons": {
+        "edit": "Edit",
+        "save": "Simpan",
+        "cancel": "Batal",
+        "delete": "Hapus"
+      },
+      "visibility": {
+        "show": "Tampilkan",
+        "hide": "Sembunyikan"
+      }
+    },
+    "certificatesPanel": {
+      "title": "Sertifikat",
+      "addButton": "Tambah Sertifikat",
+      "tips": "Unggah atau tempel (Cmd/Ctrl + V) gambar langsung. Sesuaikan rasio lebar untuk tata letak horizontal.",
+      "width": "Lebar (%)",
+      "delete": "Hapus",
+      "empty": "Belum ada gambar. Silakan unggah atau tempel gambar."
+    }
+  },
+  "field": {
+    "selectDate": "Pilih Tanggal",
+    "enterYear": "Masukkan Tahun",
+    "toPresent": "Sekarang"
+  },
+  "richEditor": {
+    "bold": "Tebal",
+    "italic": "Miring",
+    "underline": "Garis Bawah",
+    "link": "Link",
+    "linkPlaceholder": "Masukkan URL, misalnya https://example.com",
+    "linkApply": "Terapkan",
+    "linkRemove": "Hapus",
+    "linkInvalid": "Silakan masukkan URL yang valid",
+    "textColor": "Warna Teks",
+    "backgroundColor": "Warna Latar Belakang",
+    "alignLeft": "Rata Kiri",
+    "alignCenter": "Rata Tengah",
+    "alignRight": "Rata Kanan",
+    "alignJustify": "Rata Kiri Kanan",
+    "bulletList": "Daftar Simbol",
+    "orderedList": "Daftar Angka",
+    "undo": "Urungkan",
+    "redo": "Ulangi",
+    "aiPolish": "Poles AI",
+    "paragraph": "Paragraf",
+    "heading1": "Judul 1",
+    "heading2": "Judul 2",
+    "heading3": "Judul 3",
+    "colors": {
+      "black": "Hitam",
+      "darkGray": "Abu-abu Tua",
+      "gray": "Abu-abu",
+      "red": "Merah",
+      "orange": "Oranye",
+      "orangeYellow": "Kuning Oranye",
+      "yellow": "Kuning",
+      "yellowGreen": "Hijau Kuning",
+      "green": "Hijau",
+      "cyan": "Sian",
+      "lightBlue": "Biru Muda",
+      "blue": "Biru",
+      "purple": "Ungu",
+      "magenta": "Magenta",
+      "pink": "Merah Muda"
+    }
+  },
+  "iconSelector": {
+    "all": "Semua",
+    "searchPlaceholder": "Cari ikon...",
+    "noMatchingIcons": "Ikon tidak ditemukan",
+    "tryOtherKeywords": "Coba kata kunci lain",
+    "selectOtherCategory": "Pilih kategori lain",
+    "categories": {
+      "personal": "Info Pribadi",
+      "education": "Pendidikan",
+      "experience": "Pengalaman Kerja",
+      "skills": "Keterampilan",
+      "languages": "Bahasa",
+      "projects": "Proyek",
+      "achievements": "Pencapaian",
+      "hobbies": "Hobi",
+      "social": "Media Sosial",
+      "others": "Lainnya"
+    },
+    "icons": {
+      "user": "Pengguna",
+      "email": "Email",
+      "phone": "Telepon",
+      "address": "Alamat",
+      "website": "Situs Web",
+      "mobile": "Seluler",
+      "education": "Pendidikan",
+      "school": "Sekolah",
+      "major": "Jurusan",
+      "library": "Perpustakaan",
+      "scholarship": "Beasiswa",
+      "work": "Pekerjaan",
+      "company": "Perusahaan",
+      "office": "Kantor",
+      "dateRange": "Rentang Tanggal",
+      "workTime": "Waktu Kerja",
+      "programming": "Pemrograman",
+      "system": "Sistem",
+      "database": "Basis Data",
+      "terminal": "Terminal",
+      "techStack": "Teknologi",
+      "language": "Bahasa",
+      "speaking": "Berbicara",
+      "communication": "Komunikasi",
+      "project": "Proyek",
+      "branch": "Cabang",
+      "release": "Rilis",
+      "target": "Target",
+      "trophy": "Piala",
+      "medal": "Medali",
+      "star": "Bintang",
+      "interest": "Minat",
+      "music": "Musik",
+      "art": "Seni",
+      "photography": "Fotografi",
+      "linkedin": "LinkedIn",
+      "twitter": "Twitter",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "profile": "Profil",
+      "review": "Ulasan",
+      "filter": "Filter",
+      "link": "Link",
+      "salary": "Gaji",
+      "idea": "Ide",
+      "send": "Kirim",
+      "share": "Bagikan",
+      "settings": "Pengaturan",
+      "search": "Cari",
+      "flag": "Bendera",
+      "bookmark": "Bookmark",
+      "thumbsUp": "Suka",
+      "skill": "Keterampilan"
+    }
+  },
+  "aiPolishDialog": {
+    "title": "Poles AI",
+    "description": {
+      "ready": "Tambahkan instruksi tambahan (opsional), lalu klik \"Mulai Poles\"",
+      "polishing": "Sedang memoles konten Anda...",
+      "finished": "Konten telah dioptimalkan, silakan periksa hasilnya"
+    },
+    "error": {
+      "configRequired": "Silakan konfigurasi model AI terlebih dahulu",
+      "polishFailed": "Poles gagal",
+      "applied": "Konten hasil poles berhasil diterapkan"
+    },
+    "content": {
+      "original": "Konten Asli",
+      "polished": "Konten Hasil Poles"
+    },
+    "customInstructions": "Instruksi Kustom",
+    "customInstructionsPlaceholder": "misal: Gunakan istilah yang lebih teknis, tonjolkan metrik, pertahankan nada formal… (opsional)",
+    "button": {
+      "start": "Mulai Poles",
+      "regenerate": "Hasilkan Lagi",
+      "generating": "Menghasilkan...",
+      "apply": "Terapkan Konten"
+    }
+  },
+  "photoConfig": {
+    "title": "Pengaturan Foto",
+    "description": "Sesuaikan foto resume Anda",
+    "upload": {
+      "title": "Link Online",
+      "dragHint": "Seret dan letakkan atau klik untuk unggah gambar",
+      "sizeLimit": "Ukuran gambar tidak boleh melebihi 2MB",
+      "typeLimit": "Silakan unggah file gambar",
+      "urlPlaceholder": "Masukkan link gambar",
+      "invalidUrl": "Link gambar tidak valid atau tidak dapat diakses, silakan coba link gambar lain",
+      "timeout": "Waktu pemuatan habis",
+      "loadError": "Gagal memuat gambar"
+    },
+    "config": {
+      "aspectRatio": "Rasio Aspek",
+      "size": "Ukuran",
+      "width": "Lebar",
+      "height": "Tinggi",
+      "border-radius": "Radius Sudut",
+      "widthPlaceholder": "Lebar",
+      "heightPlaceholder": "Tinggi",
+      "ratios": {
+        "1:1": "1:1 Persegi",
+        "4:3": "4:3 Lanskap",
+        "3:4": "3:4 Potret",
+        "16:9": "16:9 Layar Lebar",
+        "custom": "Kustom"
+      },
+      "borderRadius": {
+        "none": "Tidak Ada",
+        "medium": "Sedang",
+        "full": "Lingkaran",
+        "custom": "Kustom",
+        "customPlaceholder": "Radius kustom"
+      }
+    },
+    "actions": {
+      "reset": "Reset",
+      "close": "Tutup",
+      "cancel": "Batal",
+      "removePhoto": "Hapus Foto"
+    }
+  },
+  "templates": {
+    "switchTemplate": "Ganti Templat"
+  },
+  "themeModal": {
+    "delete": {
+      "title": "Konfirmasi Penghapusan",
+      "description": "Apakah Anda yakin ingin menghapus {title}?",
+      "confirmText": "Hapus",
+      "cancelText": "Batal"
+    }
+  },
+  "grammarCheck": {
+    "title": "Pemeriksaan Tata Bahasa AI",
+    "description": "Menemukan {count} saran",
+    "exit": "Keluar",
+    "spelling": "Ejaan",
+    "punctuation": "Tanda Baca",
+    "original": "Asli",
+    "error_point": "Kesalahan",
+    "suggestion": "Saran",
+    "reason": "Alasan",
+    "accept": "Terapkan",
+    "ignore": "Abai",
+    "found_issues": "Menemukan {count} masalah",
+    "applied_success": "Perubahan diterapkan",
+    "apply_error": "Teks tidak ditemukan, tidak dapat menerapkan secara otomatis",
+    "no_errors_title": "Sempurna!",
+    "no_errors_desc": "Tidak ditemukan kesalahan tata bahasa atau tanda baca."
+  },
+  "faqDialog": {
+    "title": "Pertanyaan yang Sering Diajukan (FAQ)",
+    "description": "Tips dan solusi umum untuk lingkungan kerja Magic Resume.",
+    "items": {
+      "browser-compatibility": {
+        "question": "Browser apa yang disarankan?",
+        "answer": "Kami menyarankan menggunakan versi terbaru Chrome atau Edge untuk pengalaman tata letak dan ekspor terbaik. Beberapa browser lama mungkin menyebabkan masalah gaya."
+      },
+      "export-failure": {
+        "question": "Bagaimana jika ekspor gagal atau gaya berantakan?",
+        "answer": "1. Kami menyarankan menggunakan Google Chrome (https://www.google.cn/intl/zh-CN/chrome/) untuk kompatibilitas terbaik.\\n2. Jika tetap gagal, coba di 'Mode Penyamaran' untuk mengecualikan gangguan ekstensi.\\n3. Atau, klik 'PDF (Cadangan)' di menu ekspor dan pilih 'Simpan sebagai PDF' di dialog cetak."
+      },
+      "export-methods": {
+        "question": "Apa perbedaan antara dua metode ekspor?",
+        "answer": "• Ekspor PDF: Menggunakan layanan backend untuk perenderan presisi tinggi, 100% mengembalikan tata letak. Disarankan untuk pengiriman resmi ke HR.\\n\\n• Cetak Browser: Memanggil fungsi cetak asli browser Anda (Simpan sebagai PDF). Cocok saat layanan ekspor backend sibuk atau Anda perlu menyempurnakan margin cetak melalui browser Anda."
+      }
+    }
+  }
+}
